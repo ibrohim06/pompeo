@@ -1,0 +1,17 @@
+.fb {
+  margin: 10% 0;
+  padding: 5% 0;
+  background-image: url("../../../public/assets/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 5%;
+  }
+  &_btn {
+    display: flex;
+    justify-content: start;
+  }
+}

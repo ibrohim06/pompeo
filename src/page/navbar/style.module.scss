@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 3% 0;
+  &_right ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    li a {
+      color: black;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    li {
+      padding: 13px 0;
+      transition: 0.3s;
+    }
+
+    li:hover {
+      transform: translateY(10px);
+    }
+  }
+}
